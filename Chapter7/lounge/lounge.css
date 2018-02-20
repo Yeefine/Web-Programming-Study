@@ -1,0 +1,27 @@
+body {
+  font-family: sans-serif;
+}
+
+h1,h2 {                        /*要为多个元素编写一个规则，只需要在选择器之间加上逗号*/
+   color:       gray;          /*将字体颜色改为gray*/
+ }
+
+ h1 {
+   border-bottom: 1px solid black; /*欢迎消息下加一条线（粗细为1像素，黑色，实线*/
+ }
+
+ p {
+   color:       maroon;       /*文本颜色设置为茶红色 */
+ }
+
+p.blueberry {
+  color: purple;
+}
+
+p.greentea {
+  color: green;
+}
+
+p.raspberry {
+  color: blue;
+}
